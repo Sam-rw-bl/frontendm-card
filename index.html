@@ -25,13 +25,13 @@
  <main class="w-full max-w-[600px] h-[450px]  my-44 rounded-xl shadow-lg flex flex-col justify-center items-center md:flex-row">
   <div class="w-full h-full flex justify-center items-center flex-col">
    <div class="w-full h-full flex flex-1 items-center justify-center ">
-    <img src="./img/Bitmap.png" alt="perfume Gabrielle Chanel" class="h-[450px]">
-    <div class="w-full h-full hidden md:block flex items-center">
-      <img src="./img/Bitmap.2.png" alt="" class="rounded-lg">
+    <img src="./img/Bitmap.png" alt="perfume Gabrielle Chanel" class="h-[450px] hidden md:block">
+    <div class="w-full h-full md:hidden bg-white p-4">
+      <img src="./img/Bitmap.2.png" alt="" class="rounded-lg w-full">
     </div>
    </div>
   </div>
-  <div class="w-full h-full h-[450px] flex justify-start items-start bg-slate-50 rounded-r-lg">
+  <div class="w-full md:h-[450px] flex justify-start items-start bg-slate-50 rounded-r-lg">
     <div class="w-full flex-col items-start justify-start">
       <div class="flex-col items-start justify-start ml-8">
         <h6 class="text-slate-500 uppercase font-medium tracking-[7px] mt-8">Perfume</h6>
@@ -46,8 +46,8 @@
         </div>
       </div>
 
-      <div class="absolute flex items-center justify-center hover:scale-105 duration-200">
-        <img src="./img/icon-cart.svg" alt="carrinho de compras" class="w-4 relative left-16">
+      <div class="relative flex items-center justify-center hover:scale-105 duration-200">
+        <img src="./img/icon-cart.svg" alt="carrinho de compras" class="w-4 absolute left-16">
         <button class="flex items-start justify-start rounded-lg bg-green-900 ml-4 my-4 font-medium text-white px-16 py-2 ">Add to Cart</button>
         
       </div>
